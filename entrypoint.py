@@ -2,8 +2,8 @@ import os
 
 if __name__ == '__main__':
     app_name = input('Write your app name: ')
-    app_slug = input('Write your 2: ')
-    app_description = input('Write your 3ption: ')
+    app_slug = input('Write your app_slug: ')
+    app_description = input('Write your app description: ')
     author = input('Login of author of this repository: ')
     for root, dirs, files in os.walk('.'):
         for file in files:
